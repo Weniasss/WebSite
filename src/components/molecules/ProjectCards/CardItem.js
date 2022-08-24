@@ -1,27 +1,24 @@
-import React from 'react'
+import React from "react";
 
-import CardTitle from '../../atoms/ProjectCards/CardTitle'
-import CardText from '../../atoms/ProjectCards/CardText'
-import CardButton from '../../atoms/ProjectCards/CardButton'
+import CardTitle from "../../atoms/ProjectCards/CardTitle";
+import CardText from "../../atoms/ProjectCards/CardText";
 
 const CardItem = (props) => {
   return (
-	<div class="flex justify-center mb-8 ">
-	<div class="bg-white max-w-sm border-black border-dashed border-2">
-	  <div class="p-6">
-		 {/* <img className="shadow-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/> */}
+    <div class="flex justify-center mb-8 ">
+      <div class="bg-white max-w-sm border-black border-dashed border-2">
+        <div class="p-6">
+          <CardTitle title={props.title} />
 
-		 <CardTitle title={props.title}/>
-		  
-		 <CardText text={props.text} description={props.description}/>
+          <CardText
+            text={props.text}
+            description={props.description}
+            mark={props.mark}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-
-		 {/* <CardButton id={props.id}/> */}
-		 
-	  </div>
-	</div>
- </div>
-  )
-}
-
-export default CardItem
+export default CardItem;
