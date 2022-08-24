@@ -15,7 +15,7 @@ const Hero = () => {
 	</div>
 	
 	<div className="relative w-full pt-12 text-center mb-8">
-	  <h1 className="text-6xl w-full text-gray-900 font-extrabold"> We'll can solve <span className='text-white'>your problem</span></h1>
+	  <h1 className="ml-5 text-6xl w-full text-gray-900 font-extrabold"> We will  solve  <span className='text-white'>your problem</span></h1>
 	</div>
  
 	<div className=" pt-12 text-center">
