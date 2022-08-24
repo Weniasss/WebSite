@@ -10,11 +10,11 @@ const FooterColumn2 = (props) => {
 
       <FooterLink text={props.text1} />
 
-      <FooterLink text={props.text2} />
+      <FooterLink text={props.text1} />
 
-      <FooterLink text={props.text3} />
+      <FooterLink text={props.text1} />
 
-      <FooterLink text={props.text4} />
+      <FooterLink text={props.text1} />
     </div>
   );
 };

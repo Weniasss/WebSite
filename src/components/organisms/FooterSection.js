@@ -12,18 +12,18 @@ const FooterSection = () => {
 
           <FooterColumn2
             title1="Products"
-            text1="Angular"
-            text2="React"
-            text3="Vue"
-            text4="Laravel"
+            text1="Example Products"
+            text2="Example Products"
+            text3="Example Products"
+            text4="Example Products"
           />
 
           <FooterColumn2
             title1="Products"
-            text1="Angular"
-            text2="React"
-            text3="Vue"
-            text4="Laravel"
+            text1="Example Products"
+            text2="Example Products"
+            text3="Example Products"
+            text4="Example Products"
           />
 
           <FooterColumn3 />
@@ -31,13 +31,8 @@ const FooterSection = () => {
       </div>
 
       <div class="text-center p-6 bg-zinc-800 border-t-2">
-        <span className="text-white">© 2021 Copyright:</span>
-        <a
-          class="text-white font-semibold"
-          href="https://tailwind-elements.com/"
-        >
-          Tailwind Elements
-        </a>
+        <span className="text-white">© 2022 Copyright:</span>
+        
       </div>
     </footer>
   );

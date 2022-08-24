@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import UserProfile from "./pages/UserProfile";
 import HomePage from "./pages/HomePage";
+import { ProjectDetails } from "./pages/ProjectDetails";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Route path="/employeeList" element={<HomePage />} />
 
           <Route path="/userProfile" element={<UserProfile />} />
+
+          <Route path="/projectDetails" element={<ProjectDetails/>} />
         </Routes>
       </BrowserRouter>
     </>

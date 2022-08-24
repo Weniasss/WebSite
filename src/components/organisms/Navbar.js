@@ -13,6 +13,14 @@ const Navbar = () => {
           >
             home
           </a>
+
+          <a
+            onClick={() => navigate("/projectDetails")}
+            class="text-2xl font-bold border-b-2 border-transparent hover:text-gray-800 transition-colors duration-200 transform dark:hover:text-gray-200 hover:border-stone-500 mx-1.5 sm:mx-6"
+          >
+            Project Details
+          </a>
+
           <a
             onClick={() => navigate("/userProfile")}
             class="text-2xl font-bold border-b-2 border-transparent hover:text-gray-800 transition-colors duration-200 transform dark:hover:text-gray-200 hover:border-stone-500 mx-1.5 sm:mx-6"
